@@ -1,0 +1,335 @@
+body {
+  background: #212226;
+}
+
+.bd {
+  font-family: "Open Sans", serif;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1.5px;
+  
+}
+
+
+.bd2 {
+  font-family: "Open Sans", serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1.5px;
+  
+}
+
+
+.bd3 {
+  font-family: "Open Sans", serif;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1.5px;
+  
+}
+
+.slogi {
+  color: white;
+  font-size: 20px;
+}
+.bd:hover {
+  color: white;
+}
+
+@media screen and (min-width: 767px) {
+  .normalobro {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.home {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.ha {
+  font-family: "Open Sans", serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1.5px;
+}
+
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.linko:hover {
+  color: white !important;
+}
+
+.ban {
+  background: #f50042;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.player {
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+.box2 {
+  background: #212226;
+  font-family: "Open Sans", serif;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.685);
+  letter-spacing: -1.5px;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 3px;
+
+}
+
+
+.box {
+    color: rgba(255, 255, 255, 0.712);
+    transition: 0.2s;
+}
+.box2:hover .box {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+
+  
+
+}
+.boxing {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ha2  {
+    font-family: "Open Sans", serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    text-align: center;
+    margin-top: 45px;
+
+}
+.cardo {
+    background: #f50042;
+    width: 60%;
+    display: block;
+    position: relative;
+
+    z-index: 1000;
+
+}
+
+.discordimg {
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    top: -200px;
+    z-index: 1;
+    background-image: url("https://cdn.discordapp.com/attachments/398907405183877130/568151620249190402/unknown.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width:1115px) {
+  .discordimg {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:983px) {
+  .discordimg {
+  display: none;
+  }
+  .cardo {
+    width: 100%;
+  }
+  .home {
+    flex-direction: column;
+    height: 550px;
+  }
+  .player {
+    margin-top: 25px;
+  }
+
+  .cardo {
+margin-bottom: 150px;
+  }
+  
+
+}
+
+@media screen and (max-width: 375px) {
+  .bd {
+    font-size: 20px;
+  }
+
+  .box {
+    font-size: 25px;
+    
+  }
+
+  iframe {
+    width:200;
+    height: auto;
+  }
+
+  .cardo {
+    margin-bottom: 150px;
+    padding: 35px !important;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .bd {
+    font-size: 17px;
+  } 
+  .cardo {
+    margin-bottom: 150px;
+    padding: 15px !important;
+  }
+}
+
+
+
+.know {
+  height:530px;
+}
+
+.ha3  {
+  font-family: "Open Sans", serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+
+.price {
+  background: #f50042;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.price p{
+  color: white;
+  margin: 15px;
+
+}
+
+.taa {
+  margin: 15px;
+  display: flex;
+
+}
+.ha4 {
+
+    font-family: "Open Sans", serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    text-align: center;
+    margin-top: 5 5px;
+  
+  
+}
+
+.footer {
+  margin-top: 80px !important;
+  padding: 10px 0px;
+}
+
+.fot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soc {
+  color: rgba(255, 255, 255, 0.541);
+  font-size: 22px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.soc:hover {
+  color: white;
+  transition: 0.3s;
+
+
+}
+
+
+.boxw {
+  background: #f50042;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.linko {
+  display: inline !important;
+  color: rgba(255, 255, 255, 0.445);
+  font-size: 17px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.paraph {
+  color: rgba(255, 255, 255, 0.747);
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.actionbut {
+  color: rgba(255, 255, 255, 0.699);
+  font-family: "Open Sans", serif;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+  background: #f50042;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s;
+  margin-top: 25px;
+
+  
+  
+}
+
+.actionbut:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
