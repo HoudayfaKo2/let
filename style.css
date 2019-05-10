@@ -1,146 +1,136 @@
 body {
-  background: #212226;
+    background: #212226;
 }
 
 .bd {
-  font-family: "Open Sans", serif;
-  font-size: 23px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-  
+    font-family: "Open Sans", serif;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
 }
-
 
 .bd2 {
-  font-family: "Open Sans", serif;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-  
-}
-
-
-.bd3 {
-  font-family: "Open Sans", serif;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-  
-}
-
-.slogi {
-  color: white;
-  font-size: 20px;
-}
-.bd:hover {
-  color: white;
-}
-
-@media screen and (min-width: 767px) {
-  .normalobro {
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-.home {
-  height: 450px;
-  display: flex;
-  justify-content: center;
-}
-
-.ha {
-  font-family: "Open Sans", serif;
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-}
-
-.part1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 30px;
-}
-
-.part2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 30px;
-}
-
-.linko:hover {
-  color: white !important;
-}
-
-.ban {
-  background: #f50042;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0;
-}
-
-.player {
-  border-radius: 4px;
-  overflow: hidden;
-  z-index: 1;
-
-}
-
-.box2 {
-  background: #212226;
-  font-family: "Open Sans", serif;
-  font-size: 30px;
-  color: rgba(255, 255, 255, 0.685);
-  letter-spacing: -1.5px;
-  text-decoration: none;
-  padding: 15px;
-  margin: 10px;
-  text-decoration: none;
-  align-items: center;
-  border-radius: 3px;
-
-}
-
-
-.box {
-    color: rgba(255, 255, 255, 0.712);
-    transition: 0.2s;
-}
-.box2:hover .box {
-  text-decoration: none;
-  color: white;
-  transition: 0.2s;
-
-  
-
-}
-.boxing {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.ha2  {
     font-family: "Open Sans", serif;
     font-size: 40px;
     color: rgb(255, 255, 255);
     letter-spacing: -1.5px;
+}
+
+.bd3 {
+    font-family: "Open Sans", serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+}
+
+.slogi {
+    color: white;
+    font-size: 20px;
+}
+
+.bd:hover {
+    color: white;
+}
+
+@media screen and (min-width: 767px) {
+    .normalobro {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.home {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.ha {
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.linko:hover {
+    color: white !important;
+}
+
+.ban {
+    background: #f50042;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.player {
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box2 {
+    background: #212226;
+    font-family: "Open Sans", serif;
+    color: rgba(255, 255, 255, 0.685);
+    letter-spacing: -1.5px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.box {
+    color: rgba(255, 255, 255, 0.712);
+    transition: 0.2s;
+    font-size: 25px;
+}
+
+.box2:hover .box {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.boxing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ha2 {
+    font-family: "Open Sans", serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
     text-align: center;
     margin-top: 45px;
-
 }
+
 .cardo {
     background: #f50042;
     width: 60%;
     display: block;
     position: relative;
-
     z-index: 1000;
-
 }
 
 .discordimg {
@@ -149,231 +139,503 @@ body {
     border-radius: 3px;
     position: relative;
     left: 50%;
-    top: -200px;
+    top: -170px;
     z-index: 1;
     background-image: url("https://cdn.discordapp.com/attachments/398907405183877130/568151620249190402/unknown.png");
     background-size: cover;
     background-position: center;
 }
 
-
 @media screen and (max-width:1115px) {
-  .discordimg {
-    width: 400px;
-    height: 250px;
-  }
+    .discordimg {
+        width: 400px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width:983px) {
-  .discordimg {
-  display: none;
-  }
-  .cardo {
-    width: 100%;
-  }
-  .home {
-    flex-direction: column;
-    height: 550px;
-  }
-  .player {
-    margin-top: 25px;
-  }
-
-  .cardo {
-margin-bottom: 150px;
-  }
-
-  .don {
-    margin-left: 0 !important;
-    padding-left: 2px;
-  }
-
+    .discordimg {
+        display: none;
+    }
+    .cardo {
+        width: 100%;
+    }
+    .home {
+        flex-direction: column;
+        height: 550px;
+    }
+    .player {
+        margin-top: 25px;
+    }
+    .cardo {
+        margin-bottom: 150px;
+    }
+    .don {
+        margin-left: 0 !important;
+        padding-left: 2px;
+    }
 }
 
 @media screen and (max-width: 375px) {
-  .bd {
-    font-size: 20px;
-  }
-
-  .box {
-    font-size: 25px;
-    
-  }
-
-  iframe {
-    width:200;
-    height: auto;
-  }
-
-  .cardo {
-    margin-bottom: 150px;
-    padding: 35px !important;
-  }
+    .bd {
+        font-size: 20px;
+    }
+    .box {
+        font-size: 25px;
+    }
+    iframe {
+        width: 200;
+        height: auto;
+    }
+    .cardo {
+        margin-bottom: 150px;
+        padding: 35px !important;
+    }
 }
-
 
 @media screen and (max-width: 320px) {
-  .bd {
-    font-size: 17px;
-  } 
-  .cardo {
-    margin-bottom: 150px;
-    padding: 15px !important;
-  }
+    .bd {
+        font-size: 17px;
+    }
+    .cardo {
+        margin-bottom: 150px;
+        padding: 15px !important;
+    }
 }
-
-
 
 .know {
-  height:530px;
+    height: 530px;
 }
 
-.ha3  {
-  font-family: "Open Sans", serif;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-  text-align: center;
-  margin-top: 15px;
-
+.ha3 {
+    font-family: "Open Sans", serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    text-align: center;
+    margin-top: 15px;
 }
-
 
 .price {
-  background: #f50042;
-  margin: 10px;
-  border-radius: 3px;
+    background: #f50042;
+    margin: 10px;
+    border-radius: 3px;
 }
 
-.price p{
-  color: white;
-  margin: 15px;
-
+.price p {
+    color: white;
+    margin: 15px;
 }
 
 .taa {
-  margin: 15px;
-  display: flex;
-
+    margin: 15px;
+    display: flex;
 }
-.ha4 {
 
+.ha4 {
     font-family: "Open Sans", serif;
     font-size: 40px;
     color: rgb(255, 255, 255);
     letter-spacing: -1.5px;
     text-align: center;
     margin-top: 5 5px;
-  
-  
 }
 
 .footer {
-  margin-top: 80px !important;
-  padding: 10px 0px;
+    margin-top: 80px !important;
+    padding: 10px 0px;
 }
 
 .fot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .soc {
-  color: rgba(255, 255, 255, 0.541);
-  font-size: 22px;
-  margin: 0 5px;
-  transition: 0.3s;
+    color: rgba(255, 255, 255, 0.541);
+    font-size: 22px;
+    margin: 0 5px;
+    transition: 0.3s;
 }
 
 .soc:hover {
-  color: white;
-  transition: 0.3s;
-
-
+    color: white;
+    transition: 0.3s;
 }
-
 
 .boxw {
-  background: #303030;
-  padding: 15px;
-  border-radius: 3px;
+    background: #303030;
+    padding: 15px;
+    border-radius: 3px;
 }
-.boxwo {
-  background: none;
 
-  border-radius: 3px;
+.boxwo {
+    background: none;
+    border-radius: 3px;
 }
 
 .linko {
-  display: inline !important;
-  color: rgba(255, 255, 255, 0.445);
-  font-size: 17px;
+    display: inline !important;
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 17px;
 }
+
 .skill {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .paraph {
-  color: rgba(255, 255, 255, 0.747);
-  margin-top: 25px;
-  font-size: 16px;
+    color: rgba(255, 255, 255, 0.747);
+    margin-top: 25px;
+    font-size: 16px;
 }
 
 .actionbut {
-  color: rgba(255, 255, 255, 0.699);
-  font-family: "Open Sans", serif;
-  font-size: 25px;
-  letter-spacing: -1.5px;
-  background: #f50042;
-  padding: 10px;
-  border-radius: 3px;
-  transition: 0.2s;
-  margin-top: 25px;
-
-  
-  
+    color: rgba(255, 255, 255, 0.699);
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    letter-spacing: -1.5px;
+    background: #f50042;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.2s;
+    margin-top: 25px;
 }
 
 .actionbut:hover {
-  color: white;
-  text-decoration: none;
-  transition: 0.2s;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 .don {
-  background: #f50042;
-  border-radius: 5px;
-  transition: 0.3s;
-  margin-left: 10px;
+    background: #f50042;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 10px;
 }
 
 .don:hover {
-  transition: 0.3s;
-
+    transition: 0.3s;
 }
 
 .don2 {
-  color: white !important;
-
+    color: white !important;
 }
 
 .box-conf {
-  color: white;
-  font-family: "Open Sans", serif;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  letter-spacing: -1.5px;
-  background: #f50042;
-  padding: 20px;
-  border-radius: 3px;
-  margin: 10px;
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    background: #f50042;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 10px;
 }
 
 .box-conf:hover {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
 
+.blogcard {
+    background: #f50042;
+    margin: 15px;
+    padding: 15px;
+    display: block;
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+    border-radius: 3px;
+}
 
+.blogcard:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hm2 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bti {
+    font-size: 1.6em;
+    letter-spacing: -1.5px;
+}
+
+.cool {
+    font-family: 'Open Sans', serif;
+}
+
+.hm {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hm2 h1 {
+    font-family: 'Open Sans', serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -2px;
+}
+
+.hm2 a {
+    color: rgba(255, 255, 255, 0.699);
+    transition: 0.2s;
+}
+
+.hm2 a:hover {
+    color: white;
+}
+
+.hm a {
+    color: rgba(255, 255, 255, 0.699);
+    transition: 0.2s;
+}
+
+.hm a:hover {
+    color: white;
+}
+
+.hm h1 {
+    display: inline !important;
+    /* font-weight: 900; */
+    font-family: 'Open Sans', serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -2px;
+}
+
+.container2 {
+    padding: 0 31% 0 31%;
+}
+
+.container2 h1 {
+    font-family: 'Open Sans', serif;
+    font-size: 35px;
+    color: rgb(243, 243, 243);
+    letter-spacing: -2px;
+}
+
+.container2 p {
+    font-family: 'Roboto', serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.1em;
+    line-height: 1.75em;
+    color: rgb(218, 218, 218);
+    margin-bottom: 40px;
+    font-weight: 0;
+}
+
+.artimage {
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    border-radius: 1px;
+}
+
+@media screen and (max-width:1000px) {
+    .container2 {
+        padding: 0 10% 0 10%;
+    }
+    .next {
+        flex-direction: column;
+    }
+    .hm2 h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-with:500px) {
+    .nx1 {
+        display: none !important;
+    }
+}
+
+.next {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 155px 0;
+}
+
+.nexo {
+    background: #f50042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 70px;
+    color: rgb(230, 230, 230);
+    font-family: 'Open Sans', serif;
+    font-size: 25px;
+    letter-spacing: -2px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.nexo:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    .price {
+        width: 200px !important;
+    }
+}
+
+.blogtxt {
+    position: absolute;
+    color: blue;
+    left: 20px !important;
+    top: 20px;
+    color: white;
+    opacity: 0.3;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: normal;
+}
+
+.badge {
+    background: #f50042;
+}
+
+.back {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.61);
+    letter-spacing: -1.5px;
+    margin-top: 5 5px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    transition: 0.2s;
+}
+
+.back:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.boxteam {
+    text-align: center;
+    background: #303030;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 30px;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+.boxteam:hover {
+    text-decoration: none;
+}
+
+.imgt {
+    height: 130px;
+    width: auto;
+}
+
+.t2 {
+    height: 100px;
+    width: auto;
+}
+
+.aa1 {
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    margin-top: 20px;
+}
+
+.aa2 {
+    color: white;
+    font-family: "Arial", serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.ttext {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.socials a {
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 20px;
+    transition: 0.2s;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cruh:hover {
+    color: white;
+    transition: 0.2s,
+}
+
+.colo {
+    background: #f50042;
+}
+
+.seemore {
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.seemore:hover {
+    color: white;
+}
+
+.partbox {
+    color: white;
+    display: flex !important;
+    align-items: center;
+    background: #303030;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.partbox:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.partext {
+    color: white;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -1.5px;
+    font-family: "Open Sans", serif;
+}
+
+.wtp {
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.wtp2 {
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.wtp:hover {
+    color: white;
 }
