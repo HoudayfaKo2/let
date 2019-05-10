@@ -639,3 +639,18 @@ body {
 .wtp:hover {
     color: white;
 }
+
+.sommaire {
+    color: white;
+    text-align: center;
+
+}
+
+.sommaire a {
+    color: rgba(255, 255, 255, 0.774);
+    
+}
+
+.sommaire a:hover {
+color: white;
+}
